@@ -1,0 +1,44 @@
+/* Element selectors */
+h1 {
+	color: rosybrown;
+}
+
+p {
+	color: tomato;
+}
+
+div {
+	color: blue;
+}
+
+/* Class selector consists of a dot, '.', followed by a class name. */
+.first {
+	color: #b07219;
+}
+
+.second {
+	color: #3572A5;
+}
+
+.third {
+	color: #f1e05a;
+}
+
+.programming-language {
+	font-weight: bold;
+}
+
+/* ID selector consists of a hash symbol (#), followed by the ID name of a given element.*/
+#paragraph1 {
+	font-family: cursive
+}
+
+#paragraph2 {
+	text-transform: uppercase
+}
+
+/* Universal selector (*) allows selecting all elements in a page. */
+* {
+	border: 1px solid white;
+	background: black;
+}
